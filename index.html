@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+    <title>Calendar App</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <div id="monthDisplay"></div>
+        <div>
+          <button id="back">Back</button>
+          <button id="next">Next</button>
+        </div>
+      </div>
+
+      <div id="days">
+        <div>SUN</div>
+        <div>MON</div>
+        <div>TUE</div>
+        <div>WED</div>
+        <div>THRU</div>
+        <div>FRI</div>
+        <div>SAT</div>
+      </div>
+
+      <div id="calender"></div>
+      <div class="inputDay">
+        <input
+          id="inputDay"
+          placeholder="Enter a date to select"
+          type="number"
+        />
+        <button onclick="selectDay()">ENTER</button>
+      </div>
+    </div>
+  </body>
+</html>
